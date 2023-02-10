@@ -1,0 +1,21 @@
+{
+  "name": "infinite-category-scroll",
+  "version": "0.0.0",
+  "description": "An add-on for PWA studio which implements infinite scroll on category galleries",
+  "main": "index.js",
+  "author": "hello@peterford.dev",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "@magento/peregrine": "~13.0.0",
+    "@magento/pwa-buildpack": "~11.4.1",
+    "@magento/venia-ui": "~10.0.0",
+    "react": "~17.0.1",
+    "webpack": "~4.46.0"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/targets/intercept"
+    }
+  }
+}
