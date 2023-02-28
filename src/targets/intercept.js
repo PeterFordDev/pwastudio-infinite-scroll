@@ -12,12 +12,7 @@ module.exports = (targets) => {
         };
     });
 
-
     talonsTarget.tap((talonWrapperConfig) => {
         talonWrapperConfig.RootComponents.Category.useCategory.wrapWith('@peterforddev/infinite-category-scroll/src/targets/wrapUseCategory');
     });
-    //
-    // talonsTarget.tap(({Category}) => {
-    //     Category.useCategory.wrapWith("./wrapUseCategory",);
-    // });
 };
