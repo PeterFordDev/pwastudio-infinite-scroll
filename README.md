@@ -6,7 +6,15 @@ This project was originally developed as an example of how to extend PWA studio 
 
 ## Installation
 
-yarn add @peterforddev/infinite-category-scroll
+Make a copy of this folder and install add module to your PWA studio project's package.json:
+
+````json
+{
+"dependencies": {
+    "@peterforddev/infinite-category-scroll": "file:../path-to-folder"
+  }
+}
+````
 
 Inside your copy of PWA Studio add the following to your local-intercept.js file:
 
